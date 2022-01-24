@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452925273855",
+    "project_id": "interviewapp1-t1",
+    "storage_bucket": "interviewapp1-t1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452925273855:android:ecf1ec3b74fe16ae4e7eca",
+        "android_client_info": {
+          "package_name": "com.sliit.interviewapp1_t1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452925273855-7ju6le234omqkm7r87puum9teiikvlsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7_lxJyq1QKbz5k-Lm_s5YQoHJ_J4SiMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452925273855-7ju6le234omqkm7r87puum9teiikvlsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
