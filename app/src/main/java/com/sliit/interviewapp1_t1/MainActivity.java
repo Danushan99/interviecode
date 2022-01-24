@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     BottomNavigationView bottomNavigationView;
 
     //initiate bottom navigator
-
     //instantiate fragments
 
 
