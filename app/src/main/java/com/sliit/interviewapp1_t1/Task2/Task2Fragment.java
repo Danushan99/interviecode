@@ -4,9 +4,11 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -17,7 +19,7 @@ import com.sliit.interviewapp1_t1.R;
 
 
 public class Task2Fragment extends Fragment {
-
+    private Button nextbtn;
     private DatabaseReference mDatabaseReference;
     private FirebaseDatabase mFirebaseInstance;
 
@@ -37,6 +39,17 @@ public class Task2Fragment extends Fragment {
         FirebaseApp.initializeApp(this);
         mFirebaseInstance = FirebaseDatabase.getInstance();
         mDatabaseReference = mFirebaseInstance.getReference("interviewapp");
+        nextbtn=findViewById(R.id.button11);
+        nextbtn.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+               Details user = new Details(name.getText().toString()
+                        ,phone.getText().toString(),
+                       email.getText().toString());
+                mDatabaseReference.child("Medicine").child("MkI1k44O_feft_Wu3d2");
+            }
+        });
     }
 
     @Override

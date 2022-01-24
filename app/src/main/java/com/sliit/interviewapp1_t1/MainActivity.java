@@ -43,19 +43,19 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         // set action bar title according to completed app
         //Implement fragment transitions
 
-//        switch (item.getItemId()) {
-//            case R.id.home:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.container,HomeFragment).commit();
-//                return true;
-//
-//            case R.id.page_1:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.container, Task1Fragment).commit();
-//                return true;
-//
-//            case R.id.page_2:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.container, Task2Fragment).commit();
-//                return true;
-//        }
+        switch (item.getItemId()) {
+            case R.id.home:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container,HomeFragment).commit();
+                return true;
+
+            case R.id.page_1:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, Task1Fragment).commit();
+                return true;
+
+            case R.id.page_2:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, Task2Fragment).commit();
+                return true;
+        }
         return false;
 
     }
